@@ -9,9 +9,25 @@
 </head>
 
 <body>
-    <h1>
-        Testando Electron
-    </h1>
+    <div>
+        <h1>
+            Gerador de Senha
+        </h1>
+
+        <div>
+            <label>
+                Qual o tamanho da sua senha?
+            </label>
+            <input type="number" name="senha" id="pass" min="0">
+            <button onclick="generatePass()">Gerar senha</button>
+        </div>
+
+        <div>
+            <span id="newPassword"></span>
+        </div>
+
+    </div>
 </body>
+<script src="./src/script.js"></script>
 
 </html>
